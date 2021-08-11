@@ -1,0 +1,99 @@
+
+.menuIcon{
+  cursor: pointer;
+  text-align: right;
+  display: block;
+  font-size: 40px;
+  padding: 35px 0 5px 0;
+  justify-content: center;
+  align-items: center;
+}
+.navber{
+  display: none;
+  text-align: right;
+}
+.navber ul{
+  margin-top: -35px;
+  display: flex;
+  flex-direction: column;
+}
+.navber .menu ul li {
+ margin: 10px 0;
+}
+.navber .menu ul li a {
+border: 1px solid rgb(253, 115, 81);
+ border-radius: 30px;
+}
+.navber .menu ul li a:hover {
+  background: rgb(253, 115, 81);
+  border-radius: 30px;
+  transition: 0.8s;
+}
+.navber .menu {
+  text-align: right;
+}
+.navber .button {
+  padding: 6px 0px;
+}
+.navber .button .btn{
+  padding: 6px 35px;
+  background:none;
+  border: 1px solid rgb(253, 115, 81);
+}
+.navber .button .btn:hover{
+  background:rgb(253, 115, 81);
+}
+
+
+/*---------------------- Footer section -------------------*/
+
+footer {
+  background: rgb(11, 13, 23);
+  color: white;
+}
+.footer{
+  padding: 3rem 0 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer-menu .menu1 .ul1 {
+  
+  display: grid;
+  grid-template-columns: 50% 20%  ;
+  grid-gap: 1rem;
+  margin: 10px 0;
+}
+.footer-menu .menu1 #ul2 {
+  display: grid;
+  grid-template-columns: 20% 25% 20% auto;
+  grid-gap: 1rem;
+  margin: 10px 0;
+}
+.footer-menu .menu1 ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.footer-menu .menu1 ul li a {
+  text-decoration: none;
+  color: rgb(194, 192, 192);
+  font-weight: 100;
+  cursor: text;
+  font-size: 20px;
+}
+.footer-logo{
+  padding-top: 30px;
+}
+.footer-logo h4{
+  font-size:18px ;
+  font-weight: 300;
+  color: rgb(194, 192, 192);
+}
+.footer-logo img {
+  width: 120px;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 8px;
+}
+.footer-logo .logo1 {
+margin: 10px 0;
+}
